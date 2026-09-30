@@ -1,0 +1,27 @@
+# Each source is a YOLO-format folder: <path>/images/**  and  <path>/labels/** (same relative names).
+# 'names' = that dataset's own class list (index order from its data.yaml).
+# 'mapping' = its class name -> our canonical pest class. Unmapped classes are ignored.
+sources:
+  - path: roboflow_fall_armyworm
+    names: [fall-armyworm]
+    mapping:
+      fall-armyworm: fall_armyworm
+
+  - path: roboflow_cotton_pests
+    names: [aphid, pink-bollworm, whitefly, jassid]
+    mapping:
+      aphid: aphids
+      pink-bollworm: pink_bollworm
+      whitefly: whitefly
+      jassid: jassids
+
+  # IP102 detection subset converted to YOLO format (see README, step 1).
+  # Keep the full 102-name list here in IP102's order and map only what you need:
+  # - path: ip102_yolo
+  #   names: [rice leaf roller, rice leaf caterpillar, paddy stem maggot, asiatic rice borer, ...]
+  #   mapping:
+  #     rice leaf roller: leaf_folder
+  #     asiatic rice borer: stem_borer
+  #     brown plant hopper: brown_planthopper
+  #     aphids: aphids
+  #     thrips: thrips

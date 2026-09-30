@@ -1,0 +1,55 @@
+# Canonical class names used by every model, dataset script and the app.
+crops: [paddy, corn, cotton, tomato, chilli]
+
+disease_classes:
+  - paddy_healthy
+  - paddy_rice_blast
+  - paddy_bacterial_leaf_blight
+  - paddy_brown_spot
+  - paddy_sheath_blight
+  - corn_healthy
+  - corn_common_rust
+  - corn_northern_leaf_blight
+  - corn_grey_leaf_spot
+  - corn_maize_streak
+  - cotton_healthy
+  - cotton_bacterial_blight
+  - cotton_fusarium_wilt
+  - cotton_verticillium_wilt
+  - cotton_alternaria_leaf_spot
+  - tomato_healthy
+  - tomato_early_blight
+  - tomato_late_blight
+  - tomato_leaf_curl
+  - tomato_septoria_leaf_spot
+  - chilli_healthy
+  - chilli_leaf_curl
+  - chilli_anthracnose
+  - chilli_powdery_mildew
+  - chilli_damping_off
+
+pest_classes:
+  - stem_borer
+  - brown_planthopper
+  - leaf_folder
+  - rice_hispa
+  - thrips
+  - aphids
+  - whitefly
+  - mites
+  - fall_armyworm
+  - corn_earworm
+  - fruit_borer
+  - jassids
+  - pink_bollworm
+
+# Which pests are relevant for which crop (used to filter/prioritise detections).
+crop_pests:
+  paddy: [stem_borer, brown_planthopper, leaf_folder, rice_hispa]
+  corn: [stem_borer, fall_armyworm, corn_earworm, aphids]
+  cotton: [pink_bollworm, whitefly, aphids, jassids]
+  tomato: [thrips, fruit_borer, whitefly, jassids]
+  chilli: [thrips, aphids, whitefly, mites]
+
+# U-Net mask values
+segmentation_classes: [background, healthy_leaf, lesion]

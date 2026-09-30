@@ -1,0 +1,28 @@
+# <folder relative to --source-root> : <canonical class from configs/classes.yaml>
+# Edit the left-hand side to match how you extracted each dataset.
+
+# PlantVillage (Kaggle: "abdallahalidev/plantvillage-dataset", color/ folder)
+plantvillage/color/Tomato___Early_blight: tomato_early_blight
+plantvillage/color/Tomato___Late_blight: tomato_late_blight
+plantvillage/color/Tomato___Septoria_leaf_spot: tomato_septoria_leaf_spot
+plantvillage/color/Tomato___Tomato_Yellow_Leaf_Curl_Virus: tomato_leaf_curl
+plantvillage/color/Tomato___healthy: tomato_healthy
+plantvillage/color/Corn_(maize)___Common_rust_: corn_common_rust
+plantvillage/color/Corn_(maize)___Northern_Leaf_Blight: corn_northern_leaf_blight
+plantvillage/color/Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot: corn_grey_leaf_spot
+plantvillage/color/Corn_(maize)___healthy: corn_healthy
+
+# Paddy Doctor (Kaggle competition "paddy-disease-classification", train_images/)
+paddy_doctor/train_images/blast: paddy_rice_blast
+paddy_doctor/train_images/bacterial_leaf_blight: paddy_bacterial_leaf_blight
+paddy_doctor/train_images/brown_spot: paddy_brown_spot
+paddy_doctor/train_images/normal: paddy_healthy
+
+# Add your own sources below, e.g. a rice dataset that contains sheath blight,
+# a cotton leaf disease dataset, a chilli dataset and your own field photos:
+# rice_extra/Sheath_Blight: paddy_sheath_blight
+# cotton/bacterial_blight: cotton_bacterial_blight
+# cotton/fusarium_wilt: cotton_fusarium_wilt
+# cotton/healthy: cotton_healthy
+# chilli/leaf_curl: chilli_leaf_curl
+# field_photos/chilli_powdery_mildew: chilli_powdery_mildew

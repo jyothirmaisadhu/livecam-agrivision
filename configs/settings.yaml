@@ -1,0 +1,22 @@
+image_size:
+  disease: 224
+  pest: 640
+  damage: 256
+
+severity_levels:        # % of leaf area that is diseased (upper bounds, inclusive)
+  healthy: 1.0          # < 1% is treated as noise (same rule as the base paper)
+  mild: 10.0
+  moderate: 25.0        # > 25% => severe
+
+live:
+  process_every_n_frames: 6
+  smoothing_window: 5
+  disease_confidence: 0.60
+  pest_confidence: 0.35
+  speak_cooldown_seconds: 8
+
+split:
+  train: 0.70
+  val: 0.15
+  test: 0.15
+  seed: 42

@@ -1,0 +1,244 @@
+{
+  "disclaimer": "Doses are general guidelines. Always follow the product label and your local agriculture officer / KVK.",
+  "diseases": {
+    "paddy_rice_blast": {
+      "name": "Rice Blast",
+      "symptoms": "Spindle/eye-shaped grey lesions with brown margins on leaves; neck rot in severe cases.",
+      "treatment": "Spray tricyclazole 75 WP (0.6 g/L) or isoprothiolane 40 EC (1.5 ml/L); repeat after 10-15 days if needed.",
+      "prevention": "Use resistant varieties, avoid excess nitrogen, treat seed with carbendazim or Pseudomonas fluorescens."
+    },
+    "paddy_bacterial_leaf_blight": {
+      "name": "Bacterial Leaf Blight",
+      "symptoms": "Yellow to straw-coloured stripes from leaf tips and margins with wavy edges.",
+      "treatment": "Spray streptomycin sulphate + tetracycline (0.3 g/L) with copper oxychloride (2.5 g/L); drain the field briefly.",
+      "prevention": "Balanced nitrogen, resistant varieties, avoid clipping seedlings, keep bunds and channels weed free."
+    },
+    "paddy_brown_spot": {
+      "name": "Brown Spot",
+      "symptoms": "Oval brown spots with grey centres on leaves and glumes.",
+      "treatment": "Spray mancozeb 75 WP (2.5 g/L) or propiconazole 25 EC (1 ml/L).",
+      "prevention": "Correct potassium/silicon deficiency, use healthy seed, seed treatment with carbendazim."
+    },
+    "paddy_sheath_blight": {
+      "name": "Sheath Blight",
+      "symptoms": "Oval greenish-grey lesions on sheath near water line that merge into large blotches.",
+      "treatment": "Spray hexaconazole 5 EC (2 ml/L) or validamycin 3 L (2 ml/L) directed at the lower canopy.",
+      "prevention": "Wider spacing, avoid excess nitrogen, remove weeds and stubble that carry sclerotia."
+    },
+    "corn_common_rust": {
+      "name": "Common Rust",
+      "symptoms": "Cinnamon-brown powdery pustules on both leaf surfaces.",
+      "treatment": "Spray mancozeb 75 WP (2.5 g/L) or propiconazole 25 EC (1 ml/L) at first appearance.",
+      "prevention": "Grow resistant hybrids, early sowing, remove volunteer maize plants."
+    },
+    "corn_northern_leaf_blight": {
+      "name": "Northern Leaf Blight",
+      "symptoms": "Long cigar-shaped grey-green to tan lesions on leaves.",
+      "treatment": "Spray mancozeb (2.5 g/L) or azoxystrobin + difenoconazole as per label.",
+      "prevention": "Resistant hybrids, crop rotation, bury or remove infected residue."
+    },
+    "corn_grey_leaf_spot": {
+      "name": "Grey Leaf Spot",
+      "symptoms": "Narrow rectangular grey-tan lesions bounded by leaf veins.",
+      "treatment": "Spray a strobilurin (azoxystrobin/pyraclostrobin) or triazole fungicide as per label.",
+      "prevention": "Rotate crops, manage residue, improve air flow, resistant hybrids."
+    },
+    "corn_maize_streak": {
+      "name": "Maize Streak Disease",
+      "symptoms": "Broken yellow-white streaks along leaf veins; stunted plants. Virus spread by leafhoppers.",
+      "treatment": "No cure for infected plants: uproot and destroy them; control leafhoppers with imidacloprid or thiamethoxam.",
+      "prevention": "Resistant varieties, timely uniform sowing, remove grassy weeds that host the leafhopper."
+    },
+    "cotton_bacterial_blight": {
+      "name": "Bacterial Blight",
+      "symptoms": "Angular water-soaked leaf spots turning brown/black; black arm on stems.",
+      "treatment": "Spray copper oxychloride (2.5 g/L) + streptocycline (0.1 g/L).",
+      "prevention": "Acid-delinted and treated seed, resistant varieties, destroy infected debris."
+    },
+    "cotton_fusarium_wilt": {
+      "name": "Fusarium Wilt",
+      "symptoms": "Yellowing and wilting from lower leaves; brown streaks inside the stem.",
+      "treatment": "Soil drench with carbendazim (1 g/L) around affected plants; apply Trichoderma viride with farmyard manure.",
+      "prevention": "Resistant varieties, long crop rotation, balanced potash, avoid waterlogging."
+    },
+    "cotton_verticillium_wilt": {
+      "name": "Verticillium Wilt",
+      "symptoms": "Yellow patches between veins turning brown (tiger-stripe); leaf drop, vascular browning.",
+      "treatment": "No effective chemical cure: remove badly affected plants; apply Trichoderma-enriched compost.",
+      "prevention": "Rotation with cereals, resistant varieties, avoid excess irrigation and nitrogen."
+    },
+    "cotton_alternaria_leaf_spot": {
+      "name": "Alternaria Leaf Spot",
+      "symptoms": "Small brown circular spots with concentric rings, often with a yellow halo.",
+      "treatment": "Spray mancozeb 75 WP (2.5 g/L) or propiconazole 25 EC (1 ml/L).",
+      "prevention": "Balanced nutrition (especially potassium), remove infected leaves, avoid overhead irrigation."
+    },
+    "tomato_early_blight": {
+      "name": "Early Blight",
+      "symptoms": "Dark brown spots with concentric rings (target board) on older leaves.",
+      "treatment": "Spray mancozeb (2.5 g/L) or chlorothalonil (2 g/L); azoxystrobin for severe cases.",
+      "prevention": "Crop rotation, remove lower infected leaves, mulch, stake plants."
+    },
+    "tomato_late_blight": {
+      "name": "Late Blight",
+      "symptoms": "Large water-soaked dark lesions with white mould underneath in humid weather.",
+      "treatment": "Spray metalaxyl + mancozeb (2.5 g/L) or cymoxanil + mancozeb immediately; repeat at 7-10 day intervals.",
+      "prevention": "Avoid overhead irrigation, destroy infected plants, use healthy transplants."
+    },
+    "tomato_leaf_curl": {
+      "name": "Tomato Leaf Curl Virus",
+      "symptoms": "Upward curling, crinkled and yellow leaves; stunted plants. Spread by whiteflies.",
+      "treatment": "No cure: uproot infected plants; control whiteflies with yellow sticky traps, neem oil or spiromesifen/diafenthiuron.",
+      "prevention": "Resistant hybrids, insect-proof nursery net, border crop of maize, remove weed hosts."
+    },
+    "tomato_septoria_leaf_spot": {
+      "name": "Septoria Leaf Spot",
+      "symptoms": "Many small circular spots with dark borders and grey centres on lower leaves.",
+      "treatment": "Spray chlorothalonil (2 g/L) or mancozeb (2.5 g/L).",
+      "prevention": "Remove infected leaves, avoid wetting foliage, crop rotation."
+    },
+    "chilli_leaf_curl": {
+      "name": "Chilli Leaf Curl",
+      "symptoms": "Leaves curl, pucker and become small; plants bushy and stunted. Spread by whiteflies/thrips/mites.",
+      "treatment": "Remove infected plants; control vectors with yellow/blue sticky traps, neem oil (3 ml/L) or recommended insecticide.",
+      "prevention": "Nursery under insect net, resistant varieties, remove weed hosts."
+    },
+    "chilli_anthracnose": {
+      "name": "Anthracnose (Fruit Rot)",
+      "symptoms": "Sunken dark circular spots on fruits with concentric rings; die-back of twigs.",
+      "treatment": "Spray carbendazim (1 g/L) or azoxystrobin (1 ml/L) at flowering and fruit set.",
+      "prevention": "Disease-free seed, remove infected fruits, avoid dense planting."
+    },
+    "chilli_powdery_mildew": {
+      "name": "Powdery Mildew",
+      "symptoms": "White powdery patches on lower leaf surface; yellowing and leaf fall.",
+      "treatment": "Spray wettable sulphur (3 g/L) or hexaconazole 5 EC (2 ml/L).",
+      "prevention": "Good spacing and air flow, remove infected leaves."
+    },
+    "chilli_damping_off": {
+      "name": "Damping-Off",
+      "symptoms": "Seedlings collapse at soil level; water-soaked stem base in nursery.",
+      "treatment": "Drench nursery with metalaxyl + mancozeb (2 g/L) or copper oxychloride (2.5 g/L).",
+      "prevention": "Raised well-drained beds, seed treatment with Trichoderma (4 g/kg) or thiram, avoid over-watering."
+    }
+  },
+  "pests": {
+    "stem_borer": {
+      "name": "Stem Borer",
+      "symptoms": "Dead heart in young plants, white ear heads at flowering; bore holes in stems.",
+      "treatment": "Apply cartap hydrochloride 4 G (25 kg/ha) or spray chlorantraniliprole 18.5 SC (0.3 ml/L).",
+      "prevention": "Pheromone traps, clip seedling tips before transplanting, destroy stubble."
+    },
+    "brown_planthopper": {
+      "name": "Brown Planthopper",
+      "symptoms": "Hoppers at plant base; circular patches of drying plants (hopper burn).",
+      "treatment": "Spray pymetrozine 50 WG (0.6 g/L) or dinotefuran directed at plant base; drain water.",
+      "prevention": "Avoid excess nitrogen and pyrethroid sprays (cause resurgence), leave alleyways every 2 m."
+    },
+    "leaf_folder": {
+      "name": "Leaf Folder",
+      "symptoms": "Leaves folded lengthwise with white scraped streaks inside.",
+      "treatment": "Spray chlorantraniliprole (0.3 ml/L) or flubendiamide (0.2 ml/L).",
+      "prevention": "Balanced nitrogen, remove grassy weeds, encourage natural enemies."
+    },
+    "rice_hispa": {
+      "name": "Rice Hispa",
+      "symptoms": "White parallel streaks and blotches from adults scraping leaves; mines by grubs.",
+      "treatment": "Clip and destroy infested leaf tips; spray quinalphos 25 EC (2 ml/L) if damage is high.",
+      "prevention": "Avoid close spacing and excess nitrogen, remove grassy weeds."
+    },
+    "thrips": {
+      "name": "Thrips",
+      "symptoms": "Silvery scars, upward leaf curling, scarred fruits.",
+      "treatment": "Spray spinosad 45 SC (0.3 ml/L) or fipronil 5 SC (2 ml/L); blue sticky traps.",
+      "prevention": "Remove weeds, avoid water stress, neem seed kernel extract 5%."
+    },
+    "aphids": {
+      "name": "Aphids",
+      "symptoms": "Clusters of small soft insects on tender shoots; curled leaves, sticky honeydew.",
+      "treatment": "Spray neem oil (3 ml/L) or imidacloprid 17.8 SL (0.3 ml/L) / thiamethoxam 25 WG (0.3 g/L).",
+      "prevention": "Conserve ladybird beetles, avoid excess nitrogen, yellow sticky traps."
+    },
+    "whitefly": {
+      "name": "Whitefly",
+      "symptoms": "Tiny white flies under leaves; yellowing, sooty mould; vector of leaf curl virus.",
+      "treatment": "Yellow sticky traps (10/acre); spray neem oil (3 ml/L), spiromesifen 22.9 SC (1 ml/L) or diafenthiuron 50 WP (1 g/L).",
+      "prevention": "Remove weed hosts, avoid repeated synthetic pyrethroids, border crops."
+    },
+    "mites": {
+      "name": "Mites",
+      "symptoms": "Downward leaf curling, bronzing, fine webbing under leaves.",
+      "treatment": "Spray wettable sulphur (3 g/L), spiromesifen (1 ml/L) or fenazaquin (2 ml/L).",
+      "prevention": "Avoid water stress and dust, remove heavily infested leaves."
+    },
+    "fall_armyworm": {
+      "name": "Fall Armyworm",
+      "symptoms": "Ragged holes and sawdust-like frass in maize whorls; inverted Y on larva head.",
+      "treatment": "Spray emamectin benzoate 5 SG (0.4 g/L) or spinetoram 11.7 SC (0.5 ml/L) into the whorl.",
+      "prevention": "Pheromone traps, sand + lime in whorls, early uniform sowing, intercrop with pulses."
+    },
+    "corn_earworm": {
+      "name": "Corn Earworm",
+      "symptoms": "Larvae feed on silk and kernels at the cob tip.",
+      "treatment": "Spray Bt (Bacillus thuringiensis) or spinosad at silking; chlorantraniliprole if severe.",
+      "prevention": "Deep ploughing to expose pupae, pheromone traps, timely harvest."
+    },
+    "fruit_borer": {
+      "name": "Fruit Borer (Helicoverpa)",
+      "symptoms": "Round bore holes in fruits with larva half inside.",
+      "treatment": "Spray HaNPV (250 LE/ha), emamectin benzoate (0.4 g/L) or chlorantraniliprole (0.3 ml/L); remove bored fruits.",
+      "prevention": "Pheromone traps, marigold trap crop, bird perches."
+    },
+    "jassids": {
+      "name": "Jassids (Leafhoppers)",
+      "symptoms": "Leaf edges yellow then reddish-brown and curl downward (hopper burn).",
+      "treatment": "Spray imidacloprid 17.8 SL (0.3 ml/L), thiamethoxam 25 WG (0.3 g/L) or neem oil (3 ml/L).",
+      "prevention": "Hairy/tolerant varieties, avoid excess nitrogen, remove weeds."
+    },
+    "pink_bollworm": {
+      "name": "Pink Bollworm",
+      "symptoms": "Rosette flowers, bored green bolls, stained lint and damaged seeds.",
+      "treatment": "Spray emamectin benzoate (0.4 g/L) or profenofos 50 EC (2 ml/L) when trap catch crosses threshold.",
+      "prevention": "Pheromone traps / PB-rope, timely termination of crop, destroy crop residue and seed cotton stocks."
+    }
+  },
+  "healthy": {
+    "paddy_healthy": {
+      "name": "Healthy",
+      "message": "Paddy leaf looks healthy."
+    },
+    "corn_healthy": {
+      "name": "Healthy",
+      "message": "Corn leaf looks healthy."
+    },
+    "cotton_healthy": {
+      "name": "Healthy",
+      "message": "Cotton leaf looks healthy."
+    },
+    "tomato_healthy": {
+      "name": "Healthy",
+      "message": "Tomato leaf looks healthy."
+    },
+    "chilli_healthy": {
+      "name": "Healthy",
+      "message": "Chilli leaf looks healthy."
+    }
+  },
+  "severity_advice": {
+    "mild": "Early stage. Remove affected leaves and monitor every 2-3 days; spray only if it spreads.",
+    "moderate": "Spreading. Apply the recommended treatment now and re-check in a week.",
+    "severe": "Severe damage. Treat immediately, remove badly affected plants and consult your agriculture officer."
+  },
+  "vector_links": {
+    "whitefly": [
+      "tomato_leaf_curl",
+      "chilli_leaf_curl"
+    ],
+    "thrips": [
+      "chilli_leaf_curl"
+    ],
+    "mites": [
+      "chilli_leaf_curl"
+    ]
+  }
+}

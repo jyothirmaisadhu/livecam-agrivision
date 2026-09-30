@@ -1,0 +1,46 @@
+{
+  "crop_pests": {
+    "paddy": [
+      "stem_borer",
+      "brown_planthopper",
+      "leaf_folder",
+      "rice_hispa"
+    ],
+    "corn": [
+      "stem_borer",
+      "fall_armyworm",
+      "corn_earworm",
+      "aphids"
+    ],
+    "cotton": [
+      "pink_bollworm",
+      "whitefly",
+      "aphids",
+      "jassids"
+    ],
+    "tomato": [
+      "thrips",
+      "fruit_borer",
+      "whitefly",
+      "jassids"
+    ],
+    "chilli": [
+      "thrips",
+      "aphids",
+      "whitefly",
+      "mites"
+    ]
+  },
+  "severity_levels": {
+    "healthy": 1.0,
+    "mild": 10.0,
+    "moderate": 25.0
+  },
+  "live": {
+    "process_every_n_frames": 6,
+    "smoothing_window": 5,
+    "disease_confidence": 0.6,
+    "pest_confidence": 0.35,
+    "speak_cooldown_seconds": 8
+  }
+}

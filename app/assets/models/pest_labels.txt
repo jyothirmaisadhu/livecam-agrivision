@@ -1,0 +1,13 @@
+stem_borer
+brown_planthopper
+leaf_folder
+rice_hispa
+thrips
+aphids
+whitefly
+mites
+fall_armyworm
+corn_earworm
+fruit_borer
+jassids
+pink_bollworm
